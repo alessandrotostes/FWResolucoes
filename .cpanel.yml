@@ -2,4 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home4/fwreso13/public_html/
+    - /bin/rsync -a .htaccess $DEPLOYPATH
     - /bin/rsync -a * $DEPLOYPATH --exclude .git --exclude .gitignore --exclude alteracoes.md --exclude codigo-fonte-fw.md --exclude FWResolucoes.zip
