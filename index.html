@@ -66,6 +66,11 @@
             "opens": "07:00",
             "closes": "18:00"
           },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "10"
+          },
           "priceRange": "$$"
         },
         {
@@ -206,6 +211,7 @@
                     <li><a href="./" class="nav-link active">Início</a></li>
                     <li><a href="#servicos" class="nav-link">Serviços</a></li>
                     <li><a href="#comparativo" class="nav-link">Comparativo</a></li>
+                    <li><a href="#avaliacoes" class="nav-link">Avaliações</a></li>
                     <li><a href="#contato" class="nav-link">Contato</a></li>
                 </ul>
             </nav>
@@ -385,6 +391,684 @@
             </div>
         </section>
 
+        <!-- Google Reviews / Avaliações Section (Infinite Marquee) -->
+        <section class="py-24 bg-surface-container-low overflow-hidden" id="avaliacoes">
+            <div class="max-w-[1200px] mx-auto px-margin-mobile md:px-margin-desktop mb-10">
+                <div class="text-center max-w-3xl mx-auto reveal-on-scroll">
+                    <div class="inline-flex items-center gap-2 bg-white px-4 py-1.5 rounded-full border border-outline-variant/30 shadow-sm mb-4">
+                        <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                        </svg>
+                        <span class="text-xs font-bold text-on-surface uppercase tracking-wider">Avaliações Reais no Google Maps</span>
+                    </div>
+                    <h2 class="font-headline-lg text-headline-lg text-on-surface mt-2">Quem precisou da FW Resoluções, aprova.</h2>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant mt-3">Confira o que dizem nossos clientes no Google Maps sobre a nossa assessoria em Seguro-Desemprego.</p>
+                    
+                    <!-- Rating Badge -->
+                    <div class="mt-6 inline-flex flex-col sm:flex-row items-center justify-center gap-3 bg-white px-6 py-3 rounded-2xl shadow-sm border border-outline-variant/30">
+                        <div class="flex items-center gap-1 text-amber-500">
+                            <span class="font-bold text-2xl text-on-surface mr-2">5.0</span>
+                            <span class="material-symbols-outlined text-amber-400 text-xl" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-amber-400 text-xl" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-amber-400 text-xl" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-amber-400 text-xl" style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined text-amber-400 text-xl" style="font-variation-settings: 'FILL' 1;">star</span>
+                        </div>
+                        <span class="text-xs text-on-surface-variant font-medium border-t sm:border-t-0 sm:border-l border-outline-variant/30 pt-2 sm:pt-0 sm:pl-3">
+                            Classificação máxima no Google Maps • Passe o mouse para pausar
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Infinite Marquee Track -->
+            <div class="marquee-container">
+                <div class="marquee-track py-2">
+                    <!-- BLOCK 1 (10 Reviews) -->
+                    
+                    <!-- Review 1: Mickelly Lima -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-primary text-white font-bold flex items-center justify-center text-sm shadow-md">ML</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Mickelly Lima</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 5 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "De início, fiquei com o pé atrás. Medo de golpe. Mas vi que realmente poderia contar sem medo algum. Fizeram um excelente trabalho. Resolveram o meu problema em menos de 48 horas. Fico imensamente grata."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 2: Thauane Silva de Morais -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-[#25D366] text-white font-bold flex items-center justify-center text-sm shadow-md">TM</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Thauane Silva</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 3 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "Excelente profissional gostei muito do atendimento e a rapidez que resolveram meu problema. Super qualificadas me ajudaram muito."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 3: Lilian Medeiros -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-secondary text-white font-bold flex items-center justify-center text-sm shadow-md">LM</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Lilian Medeiros</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 5 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "Trabalho excelente, atendimento rápido, resolveu rápido, eu realmente fiquei muito satisfeita com agilidade! Parabéns para a empresa e pelo ótimo trabalho!"
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 4: Landia silva Lima -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-primary text-white font-bold flex items-center justify-center text-sm shadow-md">LL</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Lândia Silva</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 7 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "Fiquei muito feliz em saber que meu problema foi resolvido! E bem rápido."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 5: Mariana Lobato -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-[#25D366] text-white font-bold flex items-center justify-center text-sm shadow-md">ML</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Mariana Lobato</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 2 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "Tive e estou tendo ainda todo o suporte. Me acalmou e orientou muito bem, só tenho a agradecer a Aline pelo atendimento."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 6: Tiago Antunes -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-secondary text-white font-bold flex items-center justify-center text-sm shadow-md">TA</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Tiago Antunes</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 5 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "Eles foram mto educados, resolveram meu problema rápido. Só tenho a agradecer por ter me ajudado, pode confiar!"
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 7: Scarlet Georgina -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-primary text-white font-bold flex items-center justify-center text-sm shadow-md">SG</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Scarlet Georgina</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 2 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "Recomendo muito, me ajudaram com meu seguro desemprego que deu duas divergências, atendimento ótimo e com responsabilidade."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 8: Nicolas Vieira -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-[#25D366] text-white font-bold flex items-center justify-center text-sm shadow-md">NV</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Nicolas Vieira</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 6 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "Atendimento excelente, muito rápido e prestativo, resolveram meu problema antes do prazo esperado."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 9: Pastor Tuyuka -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-amber-600 text-white font-bold flex items-center justify-center text-sm shadow-md">PT</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Pastor Tuyuka</h4>
+                                        <span class="text-xs text-on-surface-variant">Local Guide • 2 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "O atendimento foi excelente, obrigado pelo apoio em solucionar a minha pendência."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 10: Matheus Queiroz -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-secondary text-white font-bold flex items-center justify-center text-sm shadow-md">MQ</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Matheus Queiroz</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 6 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "Bom Atendimento Rapidez no processo resolvido rapidamente!"
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <!-- BLOCK 2 (Duplicated 10 Reviews for Seamless Infinite Loop) -->
+
+                    <!-- Review 1: Mickelly Lima -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-primary text-white font-bold flex items-center justify-center text-sm shadow-md">ML</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Mickelly Lima</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 5 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "De início, fiquei com o pé atrás. Medo de golpe. Mas vi que realmente poderia contar sem medo algum. Fizeram um excelente trabalho. Resolveram o meu problema em menos de 48 horas. Fico imensamente grata."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 2: Thauane Silva de Morais -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-[#25D366] text-white font-bold flex items-center justify-center text-sm shadow-md">TM</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Thauane Silva</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 3 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "Excelente profissional gostei muito do atendimento e a rapidez que resolveram meu problema. Super qualificadas me ajudaram muito."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 3: Lilian Medeiros -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-secondary text-white font-bold flex items-center justify-center text-sm shadow-md">LM</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Lilian Medeiros</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 5 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "Trabalho excelente, atendimento rápido, resolveu rápido, eu realmente fiquei muito satisfeita com agilidade! Parabéns para a empresa e pelo ótimo trabalho!"
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 4: Landia silva Lima -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-primary text-white font-bold flex items-center justify-center text-sm shadow-md">LL</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Lândia Silva</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 7 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "Fiquei muito feliz em saber que meu problema foi resolvido! E bem rápido."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 5: Mariana Lobato -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-[#25D366] text-white font-bold flex items-center justify-center text-sm shadow-md">ML</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Mariana Lobato</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 2 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "Tive e estou tendo ainda todo o suporte. Me acalmou e orientou muito bem, só tenho a agradecer a Aline pelo atendimento."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 6: Tiago Antunes -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-secondary text-white font-bold flex items-center justify-center text-sm shadow-md">TA</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Tiago Antunes</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 5 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "Eles foram mto educados, resolveram meu problema rápido. Só tenho a agradecer por ter me ajudado, pode confiar!"
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 7: Scarlet Georgina -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-primary text-white font-bold flex items-center justify-center text-sm shadow-md">SG</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Scarlet Georgina</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 2 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "Recomendo muito, me ajudaram com meu seguro desemprego que deu duas divergências, atendimento ótimo e com responsabilidade."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 8: Nicolas Vieira -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-[#25D366] text-white font-bold flex items-center justify-center text-sm shadow-md">NV</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Nicolas Vieira</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 6 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "Atendimento excelente, muito rápido e prestativo, resolveram meu problema antes do prazo esperado."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 9: Pastor Tuyuka -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-amber-600 text-white font-bold flex items-center justify-center text-sm shadow-md">PT</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Pastor Tuyuka</h4>
+                                        <span class="text-xs text-on-surface-variant">Local Guide • 2 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "O atendimento foi excelente, obrigado pelo apoio em solucionar a minha pendência."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Review 10: Matheus Queiroz -->
+                    <div class="w-[320px] md:w-[380px] shrink-0 bg-white rounded-2xl p-6 shadow-sm border border-outline-variant/20 flex flex-col justify-between hover:shadow-md transition-all">
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-secondary text-white font-bold flex items-center justify-center text-sm shadow-md">MQ</div>
+                                    <div>
+                                        <h4 class="font-bold text-on-surface text-base">Matheus Queiroz</h4>
+                                        <span class="text-xs text-on-surface-variant">Google Maps • 6 meses atrás</span>
+                                    </div>
+                                </div>
+                                <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center gap-1 text-amber-400 mb-3">
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                                <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+                            </div>
+                            <p class="text-on-surface-variant text-sm leading-relaxed italic">
+                                "Bom Atendimento Rapidez no processo resolvido rapidamente!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Google Maps External Link Button -->
+            <div class="text-center mt-10">
+                <a href="https://www.google.com/maps/place/FW+RESOLU%C3%87%C3%9OS/@-19.5182709,-42.6217528,15z/data=!4m16!1m9!3m8!1s0xa55567ff0f8f07:0x3bfbd7afee725c74!2zRlcgUkVTT0xVw4fDlUVT!8m2!3d-19.5190449!4d-42.6164733!9m1!1b1!16s%2Fg%2F11vlgpzpj1!3m5!1s0xa55567ff0f8f07:0x3bfbd7afee725c74!8m2!3d-19.5190449!4d-42.6164733!16s%2Fg%2F11vlgpzpj1" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-3 bg-white text-on-surface border border-outline-variant/40 px-8 py-4 rounded-xl font-label-md text-sm hover:bg-surface-container-high transition-all shadow-sm hover:shadow group">
+                    <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24">
+                        <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                        <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                        <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                        <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                    </svg>
+                    <span>Ver todas as avaliações no Google Maps</span>
+                    <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">open_in_new</span>
+                </a>
+            </div>
+        </section>
+
         <!-- Final CTA -->
         <section class="py-24">
             <div class="max-w-[1200px] mx-auto px-margin-mobile md:px-margin-desktop text-center">
@@ -430,8 +1114,8 @@
                     <img src="LOGO-FW-2026.png" alt="FW Resoluções Logo" class="h-10 w-auto object-contain">
                 </div>
                 <p class="text-sm text-on-surface-variant max-w-sm">
-                    Especialistas em assessoria previdenciária e trabalhista. Garantimos agilidade, transparência e segurança na resolução de seus benefícios.
-                    <br/>CNPJ 67.282.642/0001-00
+                    FW Resoluções é uma assessoria privada e independente, sem qualquer vínculo com o Ministério do Trabalho, INSS, Caixa Econômica Federal ou qualquer órgão público. 
+                    <br/>CNPJ 67.282.642/0001-00.
                 </p>
             </div>
             
