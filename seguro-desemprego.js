@@ -1,5 +1,19 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+    // Google Ads Conversion Tracking — dispara para todos os links do WhatsApp
+    document.addEventListener('click', function(e) {
+        const link = e.target.closest('a[href*="wa.me"]');
+        if (!link) return;
+        e.preventDefault();
+        const waUrl = link.getAttribute('href');
+        if (typeof gtag_report_conversion === 'function') {
+            gtag_report_conversion(waUrl);
+        } else {
+            // Fallback caso a função ainda não tenha carregado
+            window.open(waUrl, '_blank');
+        }
+    });
+
     // Intercepta cliques nos links para efeito de fade-out
     const internalLinks = document.querySelectorAll('a[href]');
     internalLinks.forEach(link => {
